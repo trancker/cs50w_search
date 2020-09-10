@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#home_header {
+  position: relative;
+  top: 0;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#advanced_header {
+  background: #f1f1f1;
+  left: 0;
+  /* padding: 15px; */
+}
+
+#header_logo {
+  width: 92px;
+  height: 33px;
+  padding: 10px 20px 0 15px;
+}
+
+#home_img {
+  height: 100px;
+  width: 272px;
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image_logo {
+  display: block;
+}
+
+#ab {
+  position: absolute;
+  right: 0;
+  padding: 15px 20px 0 15px;
+  font-size: 13px;
+}
+
+.adv_label {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+#divider {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.upper_labels {
+  display: inline-block;
+}
+
+#lower_header {
+  font-size: 16px;
+  color: #333;
+
+  margin: 50px 0px 0px 50px;
+}
+
+#space {
+  min-width: 167px;
+  min-height: 41px;
+  width: 50%;
+}
+
+#rightsubtext {
+  height: 30px;
+  width: 33%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+}
+
+#a_form {
+  /* max-width: 1140px;
+  min-width: 200px;
+  width: 96%; */
+  margin: 20px 2% 0 50px;
+}
+
+input[type="submit"] {
+  /* display: inline-block; */
+  margin-left: auto;
+  background-color: #f2f2f2;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  color: white;
+  margin: 10px auto;
+
+  font-size: 14px;
+  margin: 11px 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  text-align: center;
+  background-color: #4d90fe;
+  float: right;
+}
+
+label {
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 16%;
+  font-size: 13px;
+}
+
+.search_box {
+  min-width: 147px;
+  min-height: 31px;
+  width: 47%;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  outline: none;
+  /* margin-left: 20px; */
+}
+
+span {
+  margin-left: 30px;
+}
+
+.lsc {
+  margin-bottom: 20px;
+}
+
+.right_clues {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  color: #555;
+}
+
+.right_label {
+  font-size: 13px;
+}

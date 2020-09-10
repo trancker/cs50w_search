@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="home_header">
+      <nav>
+        <ul>
+          <li>
+            <a class="page_links" href="google_image.html">Image Search</a>
+          </li>
+          <li>
+            <a id="advance" href="google_advanced.html">Advanced Search</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      class="big_logo"
+      src="google_logo_fromwebsite.png"
+      alt="google logo"
+      style="padding-top: 109px;"
+    />
+
+    <div class="search_form">
+      <form action="https://google.com/search">
+        <input class="search_box" type="text" name="q" />
+        <div class="button_center">
+          <input type="submit" name="btnK" value="Google Search" />
+          <input type="submit" name="btnI" value="I'm Feeling Lucky" />
+          <input type="hidden" value="q" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

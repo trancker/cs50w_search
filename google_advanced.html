@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="adv_page_style.css" />
+  </head>
+
+  <body>
+    <header id="advanced_header">
+      <img id="header_logo" src="google_logo_fromwebsite.png" />
+
+      <a id="ab" href="index.html">Home</a>
+    </header>
+
+    <div class="adv_label">
+      <label id="main_label" style="font-size: 20px;">Advanced Search</label>
+    </div>
+
+    <div id="divider"></div>
+
+    <div id="lower_header">
+      <div class="upper_labels">Find pages with...</div>
+
+      <div id="space" class="upper_labels"></div>
+
+      <div id="rightsubtext" class="upper_labels">
+        To do this in the search box
+      </div>
+    </div>
+    <div id="a_form">
+      <form action="https://www.google.com/search">
+      <div class="lsc">
+        <label for="all_these_words">all these words:</label>
+        <input class="search_box" id="all_these_words" name="as_q" type="text" style="margin-left: 50px ;">
+        <span class="right_label">Type the important words:</span><span class="right_clues">tricolor rat terrier</span>
+      </div>
+        <div class="lsc">
+          <label for="phrase" name="as_epq" type="text">this exact word or phrase:</label>
+          <input class="search_box" id="phrase" name="as_epq" type="text"style="margin-left: -9px ;" />
+          <span class="right_label">Put exact words in quotes:</span><span class="right_clues">rat terrier</span>
+        </div>
+
+        <div class="lsc">
+          <label for="any_word">any of these words:</label>
+          <input class="search_box" id="any_word" name="as_oq" type="text" style="margin-left: 28px ;"/>
+          <span class="right_label">Type OR between all the words you want:</span><span class="right_clues">miniature OR standard</span>
+        </div>
+
+        <div class="lsc">
+          <label for="none_of">none of these words:</label>
+          <input class="search_box" id="none_of" name="as_eq" type="text" style="margin-left: 21px ;"/>
+          <span class="right_label">Put a minus sign just before words you don't want:</span><span class="right_clues">-rodent, -"Jack Russell"</span>
+        </div>
+        <input type="submit" value="Advanced Search" style="margin-right: 45%;" />
+      </div>
+     
+      </form>
+    </div>
+
+    
+
+  </body>
+</html>
